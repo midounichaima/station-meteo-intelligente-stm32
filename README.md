@@ -51,6 +51,22 @@ Avant de compiler, ouvrez `main.c` et remplacez les valeurs suivantes par les v�
 
 >  Ne poussez jamais vos identifiants réels dans un dépôt public. Gardez ce fichier de configuration hors du suivi Git si possible (par exemple via un `config.h` séparé ajouté au `.gitignore`).
 
+## Schéma de câblage
+
+![Schéma de câblage](cablage.jpg)
+
+## Démonstration
+
+Une vidéo de démonstration du fonctionnement de la station météo est disponible : [demo.mp4](demo.mp4)
+
+## Dashboards de visualisation
+
+Les données collectées peuvent être visualisées via Node-RED et ThingSpeak :
+
+![Dashboard Node-RED](node_red.jpg)
+
+![Dashboard ThingSpeak](thinkspeak.jpg)
+
 ## Compilation
 
 Ce projet est écrit en C pour STM32F4 et peut être compilé avec :
