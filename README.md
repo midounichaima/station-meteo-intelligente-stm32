@@ -65,7 +65,7 @@ Les données collectées peuvent être visualisées via Node-RED et ThingSpeak :
 
 ![Dashboard Node-RED](node_red.jpg)
 
-![Dashboard ThingSpeak](thinkspeak.jpg)
+![Dashboard ThingSpeak](thingspeak.jpg)
 
 ## Compilation
 
