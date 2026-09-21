@@ -69,12 +69,13 @@ Les données collectées peuvent être visualisées via Node-RED et ThingSpeak :
 
 ## Compilation
 
-Ce projet est écrit en C pour STM32F4 et peut être compilé avec :
-- **STM32CubeIDE**, ou
-- une toolchain **arm-none-eabi-gcc** + Makefile
+Ce projet est écrit en C pour STM32F4 et a été développé avec **Keil µVision (MDK-ARM)**.
 
-*(Complétez cette section avec les étapes exactes de compilation/flash que vous utilisez.)*
-
+Pour compiler et flasher le projet :
+1. Ouvrez le projet dans **Keil µVision**.
+2. Vérifiez que le **Device Pack STM32F4** correspondant à votre carte est bien installé (via le gestionnaire de packs, Pack Installer).
+3. Compilez le projet avec **Build (F7)**.
+4. Connectez votre carte STM32F4 (via ST-Link) et flashez le programme avec **Download (F8)**.
 ## Auteur
 
 Projet réalisé par **CHAIMA M.**
